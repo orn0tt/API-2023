@@ -1,0 +1,5 @@
+package br.com.senai.backend.entity;
+
+public class Veiculo {
+
+}

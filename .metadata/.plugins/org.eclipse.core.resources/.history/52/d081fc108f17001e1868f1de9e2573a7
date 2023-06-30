@@ -1,0 +1,6 @@
+package br.com.senai.backend.enums;
+
+public enum Categoria {
+	
+	HATCH, SEDAN, PICAPE, SUV, CONVERSIVEL, MINIVAN
+}

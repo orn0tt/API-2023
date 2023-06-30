@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="git@github.com:orn0tt/API-2023.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="orn0tt &lt;roolingswow@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="orn0tt &lt;roolingswow@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\Rooli\git\API-2023\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\Rooli\OneDrive\Área de Trabalho\API-2023\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+</section>
