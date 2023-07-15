@@ -20,6 +20,7 @@ import br.com.senai.backend.exception.EmailException;
 import br.com.senai.backend.repository.EnderecoRepository;
 import br.com.senai.backend.repository.UsuarioPerfilRepository;
 import br.com.senai.backend.repository.UsuarioRepository;
+import jakarta.transaction.Transactional;
 
 @Service
 public class UsuarioService {
@@ -56,6 +57,7 @@ public class UsuarioService {
 		return usuariosListarDTO;
 	}
 
+	@Transactional
 	public UsuarioListarDTO inserirUsuario(UsuarioInserirDTO dto) throws EmailException {
 
 		Optional<Usuario> usuario = usuarioRepository.findByEmail(dto.getEmail());
