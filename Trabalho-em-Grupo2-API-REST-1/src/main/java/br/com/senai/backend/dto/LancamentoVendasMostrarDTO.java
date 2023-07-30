@@ -10,10 +10,6 @@ public class LancamentoVendasMostrarDTO {
 	private Double valorVenda;
 	private String nomeVendedor;
 
-	public LancamentoVendasMostrarDTO() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public LancamentoVendasMostrarDTO(LancamentoVendas lancamentoVendas) {
 
 		this.dataVenda = lancamentoVendas.getDataVenda();

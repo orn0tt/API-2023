@@ -2,6 +2,7 @@ package br.com.senai.backend.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,6 +18,7 @@ public class EnderecoController {
 	@Autowired
 	private EnderecoService enderecoService;
 
+	@PreAuthorize("hasRole('ROLE_ADMIN')")
 	@GetMapping("{cep}")
 	public ResponseEntity<EnderecoListarDTO> listar(@PathVariable String cep) {
 

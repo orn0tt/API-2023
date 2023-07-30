@@ -1,0 +1,57 @@
+<html xmlns:th="http://thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+
+<head>
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+
+</head>
+
+<body>
+	<h2> Cadastrar Eventos</h2>
+
+	<h3>
+		<a href="eventos" class="waves-effect waves-light btn">
+			<i class="material-icons left">format_list_bulleted</i>Listar Eventos</a>
+	</h3>
+
+
+	<form class="container" method="post" action="#">
+		<div class="row">
+			<div class="input-field col s12">
+				<input type="text" name="descricao" id="descricao"></input>
+				<label>Nome:</label>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="input-field col s6">
+				<input type="text" name="local" id="local"></input>
+				<label>Local:</label>
+			</div>
+
+
+			<div class="input-field col s3">
+				<input type="date" name="data" id="data"></input>
+				<label>Data:</label>
+			</div>
+
+			<div class="input-field col s3">
+				<input type="time" name="hora" id="hora"></input>
+				<label>Hora:</label>
+
+			</div>
+
+		</div>
+		<button class="waves-effect waves-light btn" type="submit">Salvar</button>
+
+	</form>
+
+	<script type="text/javascript" src="materialize/js/materialize.min.js">
+
+	</script>
+
+</body>
+
+</html>
